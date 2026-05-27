@@ -12,7 +12,7 @@ import re
 from datetime import datetime, timedelta
 from flask import Flask # Added for web server integration
 
-TOKEN = os.getenv("8785109448:AAFnSZF2ofz5W5VL60Z5v8YfgzKpNBueiTQ")  
+BOT_TOKEN = 8785109448:AAFnSZF2ofz5W5VL60Z5v8YfgzKpNBueiTQ  
 ADMIN_IDS = ["5926576600"]      
 
 bot = telebot.TeleBot(TOKEN) 
